@@ -1,0 +1,75 @@
+/* style.css for SaiTripMaker */
+
+/* ✅ General Page Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f7fa;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* ✅ Form Styling */
+#trip-form {
+    background: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+#trip-form input, #trip-form button {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+#trip-form button {
+    background: #0078d7;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#trip-form button:hover {
+    background: #005fa3;
+}
+
+/* ✅ Result Section */
+#trip-result {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+/* ✅ Agent Cards */
+.agent-card {
+    background: #ffffff;
+    border-left: 6px solid #0078d7;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease;
+}
+
+.agent-card:hover {
+    transform: scale(1.02);
+}
+
+.agent-card h4 {
+    margin: 0 0 10px;
+    color: #0078d7;
+    font-size: 18px;
+}
+
+.agent-card p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.5;
+}

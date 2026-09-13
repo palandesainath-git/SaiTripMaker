@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaiTripMaker</title>
+    <!-- ✅ Link CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ✅ App Header -->
+    <header style="text-align:center; padding:20px;">
+        <h1>🌍 SaiTripMaker</h1>
+        <p>Your AI-powered multi-agent travel planner</p>
+    </header>
+
+    <!-- ✅ Trip Form -->
+    <section>
+        <form id="trip-form">
+            <label for="destination">Destination:</label>
+            <input type="text" id="destination" placeholder="Enter destination" required>
+
+            <label for="start-date">Start Date:</label>
+            <input type="date" id="start-date" required>
+
+            <label for="end-date">End Date:</label>
+            <input type="date" id="end-date" required>
+
+            <button type="submit">Generate Plan</button>
+        </form>
+    </section>
+
+    <!-- ✅ Result Section -->
+    <section id="trip-result">
+        <!-- Results will be injected here by script.js -->
+    </section>
+
+    <!-- ✅ Link JS -->
+    <script src="script.js"></script>
+</body>
+</html>
